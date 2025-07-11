@@ -5,8 +5,14 @@ An intelligent agent that:
 - Searches Google for trending TV shows by genre  
 - Scrapes show lists from Rotten Tomatoes using Firecrawl  
 - Extracts and formats the show names with GPT-4o  
-- Optionally sends the recommendations to Telegram  
-⚠️ Note: Despite the name ,The agent is specifically designed to recommend TV shows, not movies. Please ask for "thriller shows", "romance shows", etc.
+- Optionally sends the recommendations to Telegram
+-⚠️ Note: Despite the name ,The agent is specifically designed to recommend TV shows, not movies. Please ask for "thriller shows", "romance shows", etc.
+
+## 📽️ Demo Video
+
+[Watch the demo on YouTube](https://youtu.be/Rfd4Wjm7JoU)
+
+
 ## ⚙️ Functionality
 - 🔍 Tool 1: `get_show_names()` – Searches Google and extracts shows  
 - 📬 Tool 2: `send_to_telegram()` – Sends show list to a Telegram user  
