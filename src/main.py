@@ -8,6 +8,8 @@ from langchain_openai import ChatOpenAI
 from langchain.tools import tool
 from langgraph.prebuilt import create_react_agent
 from langgraph.checkpoint.memory import MemorySaver
+load_dotenv()
+
 
 # ----------------- OpenAI Key Setup -----------------
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
