@@ -6,7 +6,7 @@ An intelligent agent that:
 - Scrapes show lists from Rotten Tomatoes using Firecrawl  
 - Extracts and formats the show names with GPT-4o  
 - Optionally sends the recommendations to Telegram  
-⚠️ Note: Despite the name ,The agent is specifically designed to recommend TV shows, not movies. Please ask for "thriller shows", "romantic series", etc.
+⚠️ Note: Despite the name ,The agent is specifically designed to recommend TV shows, not movies. Please ask for "thriller shows", "romance shows", etc.
 ## ⚙️ Functionality
 - 🔍 Tool 1: `get_show_names()` – Searches Google and extracts shows  
 - 📬 Tool 2: `send_to_telegram()` – Sends show list to a Telegram user  
