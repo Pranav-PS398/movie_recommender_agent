@@ -20,7 +20,7 @@ An intelligent agent that:
 
 ```bash
 git clone https://github.com/Pranav-PS398/movie_recommender_agent
-cd show-recommender-agent
+cd movie_recommender_agent
 ```
 
 ### 2. Install dependencies
