@@ -6,7 +6,7 @@ An intelligent agent that:
 - Scrapes show lists from Rotten Tomatoes using Firecrawl  
 - Extracts and formats the show names with GPT-4o  
 - Optionally sends the recommendations to Telegram  
-
+⚠️ Note: Despite the name ,The agent is specifically designed to recommend TV shows, not movies. Please ask for "thriller shows", "romantic series", etc.
 ## ⚙️ Functionality
 - 🔍 Tool 1: `get_show_names()` – Searches Google and extracts shows  
 - 📬 Tool 2: `send_to_telegram()` – Sends show list to a Telegram user  
@@ -15,6 +15,23 @@ An intelligent agent that:
 ---
 
 ## 🚀 Setup Instructions
+
+🔑 How to obtain the keys:
+🔹 OpenAI API Key: obtain an openAI api key .
+
+🔹 Firecrawl API Key: https://www.firecrawl.dev/
+
+🔹 Serper.dev API Key: https://serper.dev
+
+🔹 Telegram Bot Token: Search “@BotFather” on Telegram → create a bot → copy the token
+
+🔹 Telegram Chat ID:
+
+Start a chat with your bot .send a message .
+
+Visit: https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates
+
+Look for "chat":{"id":...} in the JSON response
 
 ### 1. Clone this repository
 
