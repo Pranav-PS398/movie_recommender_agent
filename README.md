@@ -29,6 +29,8 @@ An intelligent agent that:
 
 Start a chat with your bot .send a message .
 
+Then visit this URL in your browser (replace `<YOUR_BOT_TOKEN>`):
+
 Visit: https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates
 
 Look for "chat":{"id":...} in the JSON response
