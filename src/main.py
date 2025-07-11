@@ -1,4 +1,5 @@
 import os
+from dotenv import load_dotenv
 import requests
 import json
 from openai import OpenAI
@@ -20,6 +21,8 @@ llm = ChatOpenAI(
     temperature=0.3,
     openai_api_key=OPENAI_API_KEY
 )
+load_dotenv()  
+
 
 # ----------------- Tool 1: Get Shows -----------------
 @tool
